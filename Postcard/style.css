@@ -1,0 +1,60 @@
+body {
+     background-color: black;
+     font-family: 'Caladea', serif;
+     }
+
+.postcard{
+         background-color: white;
+         width: 500px;
+         height: 340px;
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         margin-left: -250px;
+         margin-top: -170px;
+         }
+
+.colonne{overflow: hidden;}
+
+.sinistra{
+         float: left;
+         width: 50%;
+         }
+
+.destra{
+       text-align: center;
+       float: right;
+       width: 50%;
+       }
+
+.button{
+       padding: 10px;
+       text-align: center;
+       }
+
+.button input{
+             background-color: grey;
+             font-size: 20px;
+             }
+
+.destra input{
+             margin: 5px;
+             font-size: 18px;
+             border: none;
+             border-bottom: 2px solid;
+             border-bottom-color: grey;
+             }
+
+img{
+   margin: 8px;
+   float: right;
+   width: 60px;
+   height: 60px;
+   }
+
+h1{padding-left: 10px;}
+
+p{
+ padding-left: 10px;
+ font-size: 20px;
+ }
